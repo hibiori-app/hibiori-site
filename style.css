@@ -32,3 +32,15 @@ a { color: var(--accent); }
 nav { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
 nav a { margin-right: 16px; }
 .updated { color: var(--muted); font-size: 0.9rem; }
+h3 { font-size: 1rem; margin-top: 28px; }
+.toc { padding-left: 1.4em; }
+figure { margin: 20px 0; }
+figure img { display: block; width: 100%; height: auto; border: 1px solid var(--rule); border-radius: 10px; }
+figure.narrow img { max-width: 320px; }
+kbd { font-family: inherit; font-size: 0.9em; padding: 1px 6px; border: 1px solid var(--rule); border-radius: 4px; white-space: nowrap; }
+code { font-size: 0.9em; }
+.icon { color: var(--muted); }
+table { border-collapse: collapse; width: 100%; }
+td { padding: 6px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+td:first-child { white-space: nowrap; width: 1%; padding-right: 20px; }
+.note { color: var(--muted); font-size: 0.9rem; }
